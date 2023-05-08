@@ -6,8 +6,8 @@
   --secondary-background: #f4f4fd;
   --footer-hero-background: #2e2f42;
 
-  --primary-text-color: #2e2f42;
-  --secondary-text-color: #434455;
+  --primary-text-color: #434455;
+  --secondary-text-color: #2e2f42;
   --primary-text-color-theme-dark: #ffffff;
   --secondary-text-color-theme-dark: #f4f4fd;
 
@@ -31,15 +31,13 @@ body {
 }
 /* Component */
 
-.accent {
-  color: var(--button-color);
-}
 
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
 
   text-transform: capitalize;
 }
@@ -56,7 +54,11 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: inherit;
+  color: var(--button-color);
+}
+
+.accent {
+  color: var(--secondary-text-color);
 }
 
 .menu-link {
@@ -69,6 +71,10 @@ body {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
+}
+
+.list-contact {
+  font-style: normal;
 }
 
 .contact {
@@ -91,10 +97,14 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
 
   color: var(--primary-text-color-theme-dark);
 }
 .modal-btn {
+  font-family: var(--primary-font);
+  font-weight: 500;
+
   background-color: var(--button-color);
   font-size: 16px;
   line-height: 1.5;
@@ -115,6 +125,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .section-list-description {
@@ -130,10 +141,15 @@ body {
   background-color: var(--secondary-background);
 }
 
+.team-section-list-item{
+  background-color: var(--primary-background);
+}
+
 .team-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .team-list-description {
@@ -161,6 +177,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
+  color: var(--button-color);
+}
+
+.focus{
   color: var(--secondary-text-color-theme-dark);
 }
 
@@ -177,6 +197,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-page-list-description {
@@ -189,6 +210,7 @@ body {
 .filters-btn {
   background-color: var(--secondary-background);
 
+  font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
