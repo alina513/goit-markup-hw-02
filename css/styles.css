@@ -31,7 +31,6 @@ body {
 }
 /* Component */
 
-
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -40,6 +39,7 @@ body {
   letter-spacing: 0.02em;
 
   text-transform: capitalize;
+  color: var(--secondary-text-color);
 }
 
 /* Header */
@@ -66,7 +66,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
 
-  color: inherit;
+  color: var(--secondary-text-color);
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -81,7 +81,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
 
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
 }
 .contact:hover,
 .contact:focus {
@@ -126,13 +126,12 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
 }
 
 .section-list-description {
   font-size: 16px;
   line-height: 1.5;
-
-  color: var(--secondary-text-color);
 }
 
 /* Our team */
@@ -141,7 +140,7 @@ body {
   background-color: var(--secondary-background);
 }
 
-.team-section-list-item{
+.team-section-list-item {
   background-color: var(--primary-background);
 }
 
@@ -150,13 +149,14 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
 }
 
 .team-list-description {
   font-size: 16px;
   line-height: 1.5;
 
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
 }
 
 /* Footer */
@@ -180,7 +180,7 @@ body {
   color: var(--button-color);
 }
 
-.focus{
+.focus {
   color: var(--secondary-text-color-theme-dark);
 }
 
@@ -198,13 +198,14 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+
+  color: var(--secondary-text-color);
 }
 
 .portfolio-page-list-description {
   font-size: 16px;
   line-height: 1.5;
-
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
 }
 
 .filters-btn {
